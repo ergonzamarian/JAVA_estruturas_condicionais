@@ -8,7 +8,7 @@ public class exercicio_2_par_impar {
 	
 	System.out.println("Digite um número: ");
 	int numero = sc.nextInt();
-	
+	// % = mod = Pegar o resto da divisão
 	if (numero % 2 == 0) {
 		System.out.println("O número digitado foi " + numero + ", um número que é PAR.");
 	}
